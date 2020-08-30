@@ -1,0 +1,116 @@
+/***** STANDARD *****/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    cursor: default;
+    overflow: hidden;
+    border: none;
+}
+
+html, body{
+    overflow: auto;
+    background-color: white;
+}
+
+html.dark, body{
+    background-color: #001233;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*** TEXTS ***/
+
+p{
+    font-family: assistant;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+p b{
+    font-weight: 600;
+}
+
+h1{
+    font-family: assistant;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: assistant;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: assistant;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-family: assistant;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/*** DYNAMICS ***/
+
+a{
+    cursor: pointer;
+    font-family: assistant;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+a > *{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    font-family: assistant;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button > *{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px){
+    html, body{
+        font-size: 16px;
+    }
+
+    html.large, body{
+        font-size: 18px;
+    }      
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    html, body{
+        font-size: 15px;
+    }
+    
+    html.large, body{
+        font-size: 17px;
+    } 
+}
+
+@media screen and (max-width: 767px){
+    html, body{
+        font-size: 14px;
+    }
+
+    html.large, body{
+        font-size: 16px;
+    }  
+}
