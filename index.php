@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="source/css/standard.css">
     <!-- CSS WEB -->
     <link rel="stylesheet" href="web/loader/loader.css">
+    <link rel="stylesheet" href="web/menu/menu.css">
+    <link rel="stylesheet" href="web/header/header.css">
 </head>
 <body>
     <?php include_once("web/loader/loader.php")?>
+    <?php include_once("web/menu/menu.php")?>
+    <?php include_once("web/header/header.php")?>
 
     <!-- JS SOURCE -->
     <script src="source/js/init.js"></script>

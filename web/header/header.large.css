@@ -1,0 +1,31 @@
+/***** HEADER LARGE *****/
+
+#header > div{
+    height: 600px;
+    padding: 10px 130px;
+}
+
+#header > div > div{
+    padding: 10px;
+    border-left: 2px solid #e67e22;
+}
+
+#header > div > div > h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 0.15rem;
+    margin-bottom: 10px;
+}
+
+#header > div > div > button{
+    margin-top: 20px;
+}
+
+#header > div > div > button:hover{
+    background-color: #0353a4;
+    text-decoration: underline;
+}
+
+html.dark #header > div > div > button:hover{
+    background-color: #f39c12;
+}

@@ -1,0 +1,19 @@
+/***** HEADER SMALL PORTRAIT *****/
+
+#header > div{
+    height: 400px;
+    padding: 0;
+}
+
+#header > div > div{
+    padding: 10px;
+}
+
+#header > div > div > h1{
+    line-height: 3rem;
+    margin-bottom: 10px;
+}
+
+#header > div > div > button{
+    margin-top: 20px;
+}

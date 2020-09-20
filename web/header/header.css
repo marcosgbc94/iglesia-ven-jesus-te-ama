@@ -1,0 +1,94 @@
+/***** HEADER *****/
+
+@import url("header.large.css") screen and (min-width: 1200px);
+@import url("header.medium.css") screen and (min-width: 768px) and (max-width: 1199px);
+@import url("header.small.portrait.css") screen and (max-width: 767px) and (orientation: portrait);
+@import url("header.small.landscape.css") screen and (max-width: 767px) and (orientation: landscape);
+
+#header{
+    width: 100%;
+    background-image: url(../../resources/images/church-ext.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#header > div{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+
+html.dark #header > div{
+    background-color: rgba(0, 18, 51, 0.7);
+}
+
+#header > div > div{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+#header > div > div > h1{
+    font-family: montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #455A64;
+}
+
+html.dark #header > div > div > h1{
+    color: white;
+}
+
+#header > div > div > h1 > span{
+    display: block;
+}
+
+#header > div > div > h3{
+    text-align: left;
+    line-height: 1.5rem;
+    color: #616161;
+}
+
+html.dark #header > div > div > h3{
+    color: #EEEEEE;
+}
+
+#header > div > div > h3 > span{
+    display: block;
+    margin-left: 10px;
+    font-size: 1.25rem;
+    color: #757575;
+}
+
+html.dark #header > div > div > h3 > span{
+    color: #E0E0E0;
+}
+
+#header > div > div > button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #0466c8;
+    color: white;
+    z-index: 1;
+}
+
+html.dark #header > div > div > button{
+    background-color: #f1c40f;
+    color: black;
+}
+
+#header > div > div > button:focus{
+    background-color: #0353a4;
+    outline-color: black;
+}
+
+html.dark #header > div > div > button:focus{
+    background-color: #f39c12;
+    outline-color: white;
+}

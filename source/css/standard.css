@@ -68,6 +68,8 @@ a{
     font-family: assistant;
     font-weight: 400;
     font-size: 1rem;
+    text-decoration: underline;
+    border: 2px solid transparent;
 }
 
 a > *{
@@ -79,10 +81,24 @@ button{
     font-family: assistant;
     font-weight: 400;
     font-size: 1rem;
+    outline: 2px dashed transparent;
+    outline-offset: 2px;
+    transition: 0.25s all;
+    -moz-transition: 0.25s all;
+    -o-transition: 0.25s all;
+    -webkit-transition: 0.25s all;
 }
 
 button > *{
     cursor: pointer;
+    transition: 0.25s all;
+    -moz-transition: 0.25s all;
+    -o-transition: 0.25s all;
+    -webkit-transition: 0.25s all;
+}
+
+button:focus{
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 1200px){

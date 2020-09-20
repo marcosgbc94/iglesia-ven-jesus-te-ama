@@ -1,0 +1,25 @@
+@import url("menu.large.css") screen and (min-width: 1200px);
+@import url("menu.medium.css") screen and (min-width: 768px) and (max-width: 1199px);
+@import url("menu.small.css") screen and (max-width: 767px);
+
+#menu{
+    position: fixed;
+    z-index: 100;
+}
+
+#menu > div button{
+    font-family: "assistant";
+    font-weight: 600;
+}
+
+#menu > div > #accessbar > button:focus{
+    background-color: #0466c8;
+    outline-color: black;
+    color: white;
+}
+
+#menu > div > #menubar > button:focus{
+    background-color: #e67e22;
+    outline-color: black;
+    color: white;
+}

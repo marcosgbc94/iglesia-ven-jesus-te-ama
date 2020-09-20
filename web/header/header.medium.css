@@ -1,0 +1,22 @@
+/***** HEADER MEDIUM *****/
+
+#header > div{
+    height: 600px;
+    padding: 10px 60px;
+}
+
+#header > div > div{
+    padding: 10px;
+    border-left: 2px solid #e67e22;
+}
+
+#header > div > div > h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 0.15rem;
+    margin-bottom: 10px;
+}
+
+#header > div > div > button{
+    margin-top: 20px;
+}
